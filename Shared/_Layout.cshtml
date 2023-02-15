@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/wwwroot/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<header>
+    <h1>Mehdi Golipoor (041021560)</h1>
+    <h2>Welcome to my Lab 3!</h2>
+
+    @Html.ActionLink("Show the song!", "SongForm", "Home")
+    @Html.ActionLink("Home", "Index", "Home")
+    @Html.ActionLink("Students", "CreateStudent", "Home")
+</header>
+
+<body>
+    <div id="content">
+        @RenderBody()
+    </div>
+</body>
+
+<footer>
+    <div>
+        <h3>a. Short description of what layout does</h3>
+        <p> In HTML, the layout refers to how elements are 
+            positioned and arranged on a webpage, which is controlled 
+            using various HTML tags and CSS properties that define the 
+            positioning, size, and order of the elements. HTML provides 
+            layout elements like "<div>" and "<span>" to organize other elements, 
+            while CSS provides properties like display, position, float, and 
+            clear to control element placement and behavior. With these tools, 
+            developers can create dynamic layouts that adapt to different devices 
+            and screen sizes, ensuring a consistent and usable experience.
+        </p><br>
+        <h3>b.	Why you put the files in those directories. E.g. CSS in directory 
+            x, and why. Layout in directory Y and why. Etc. </h3>By convention, 
+            every layout</h3>
+        <p>
+            The organization of files into different directories in a web project 
+            is a matter of personal preference and/or best practices. Generally, 
+            CSS files are placed in a separate directory because they define the 
+            appearance of the website, while layout files, such as HTML templates, 
+            are placed in another directory because they contain the structural layout. 
+            JavaScript files are often placed in their own directory because they define 
+            the behavior of the website, and images and other media files are often 
+            placed in their own directory because they are often large in size and can 
+            slow down the website's loading time. Organizing files into different 
+            directories can help keep the project organized and easy to maintain, but 
+            the specific directory names and structures may vary depending on the 
+            project requirements and personal preferences.
+        </p>
+    </div>
+</footer>
+
+</html>
