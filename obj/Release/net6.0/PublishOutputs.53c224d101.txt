@@ -1,0 +1,7 @@
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\Lab3.exe
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\Lab3.dll
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\Lab3.deps.json
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\Lab3.runtimeconfig.json
+C:\College\Level 7 - Winter 2023\.NET Enterprise Application\Lab 3\Lab3\obj\Release\net6.0\PubTmp\Out\Lab3.pdb

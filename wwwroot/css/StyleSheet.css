@@ -5,14 +5,16 @@
 }
 
 header {
-    background-color: aliceblue;
+    background-color: darkseagreen;
     border-bottom: solid 1px black;
     margin: 0;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: darkseagreen;
     border-top: solid 1px black;
     margin: 0;
     padding: 10px;
@@ -23,6 +25,18 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    //margin-top: 0;
     padding-top: 0;
+}
+
+
+.student-dis{
+
+  background-color: seagreen;
+  color: floralwhite;
+  padding-left: 5%;
+  
+
+
+
 }

@@ -5,12 +5,13 @@
 @{
     Layout = "_Layout";
     ViewBag.Title = "Sing";
+    Int32 bottles = Convert.ToInt32(Context.Session.GetString("Bottles"));
 }
 
 <body>
     <input type="submit" onclick="location.href='@Url.Action("SongForm","Home")'" value="Play again" />
     
-    @for (var i = ViewBag.number; i > -1; i--) {
+    @for (var i = bottles; i > -1; i--) {
         if (i > 2) {
             var bottle = i - 1;
             <p>@bottle green bottles hanging on the wall,
@@ -23,7 +24,7 @@
             <p>@bottle green bottles hanging on the wall,
             <br>@bottle green bottles hanging on the wall,
             <br>And if one green bottle should accidentally fall,
-            <br>There'll be @bottle green bottles hanging on the wall.
+            <br>There'll be @bottle green bottle hanging on the wall.
             <br></p>
         } else if (i == 1) {
             var bottle = i - 1;

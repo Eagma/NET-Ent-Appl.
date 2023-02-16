@@ -3,19 +3,16 @@
 *@
 
 @{
+    Layout = "_Layout";
     ViewBag.Title = "SongForm";
 }
 
 @{
-    <form asp-controller="HomeController" asp-action="Sing" method="post">
+    <form asp-controller="Home" asp-action="Sing" method="post" style="padding: 10px;">
         <table>
             <tr>
                 <td>Enter the number of bottles (It should be between 50 to 100): 
                     <input type="number" min="50" max="100" name="Bottles"/>
-                </td>
-
-                <td>
-                    <button type="submit" name="Sing" value="Sing">Sing!</button>
                 </td>
             </tr>
         </table>

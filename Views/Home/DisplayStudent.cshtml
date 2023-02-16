@@ -7,29 +7,34 @@
     Layout = "_Layout";
 }
 
-<table>
+<link href="~/css/StyleSheet.css" rel="stylesheet" asp-append-version="true" />
+
+<div class="student-dis">
+
+    <table>
     <tr>
-        <td>First Name:</td>
+        <td><h4>First Name:</h4></td>
         <td>@Model.FirstName</td>
     </tr>
 
     <tr>
-        <td>Last Name:</td>
+        <td><h4>Last Name:</h4></td>
         <td>@Model.LastName</td>
     </tr>
 
     <tr>
-        <td>Student ID:</td>
+        <td><h4>Student ID:</h4></td>
         <td>@Model.StudentId</td>
     </tr>
 
     <tr>
-        <td>Email Address:</td>
+        <td><h4>Email Address:</h4></td>
         <td>@Model.EmailAddress</td>
     </tr>
 
     <tr>
-        <td>Description of Person:</td>
+        <td><h4>Description of Person:</h4></td>
         <td>@Model.Description</td>
     </tr>
 </table>
+</div>
